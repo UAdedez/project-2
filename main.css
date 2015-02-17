@@ -1,0 +1,548 @@
+*{
+    margin:0 auto;
+}
+@font-face{font-family: LadyCopra;  src: url(font/LadyCopra1.ttf);}
+@font-face{font-family: Glasgow;  src: url(font/Glasgow.ttf);}
+@font-face{font-family: InterstateCondensedBold;  src: url(font/InterstateBoldCondensed.ttf);}
+@font-face{font-family: Georgia;  src: url(font/georgia.ttf);}
+@font-face{font-family: Georgia;  src: url(font/georgia-italic.ttf);font-style:italic;}
+
+body{
+    background: url(img/background.jpg)
+}
+.gg{
+    width:100%;
+}
+.block{
+    height:100%;
+    text-align: center;
+    
+}
+.head{
+    height:160px;
+}
+.head .block{
+    width:1027px;
+}
+.all{
+    width:1027px; 
+}
+.al{
+    width:999px; 
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,.5);
+}
+.panel{
+    height:101px;
+}
+.panel .block{
+    width:1027px;
+    background: url(img/panel.png)
+}
+.content{
+    height:100%;
+}
+.content .block{
+    width:999px;
+    background: #ffffff;
+}
+.foot{
+    height:219px;
+    
+}
+.foot .block{
+    width:999px;
+    background: url(img/foot.jpg) repeat-x;       
+}
+.aftfoot{
+    height:60px;
+}
+
+.search .box {
+    display:inline-block;
+    float:right;
+    width: 208px;
+    height: 24px;
+    border: 1px solid #ccc;
+    margin: 5px 5px 0 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    background: url(img/search.png) no-repeat right #ffffff;
+    background-position-x: 180px;
+    padding: 0px 25px 0px 10px;
+    border-radius: 12px;
+    font-style: italic;
+    font-size: 11px;
+    font-family: "Georgia";
+    color: rgba(82, 82, 82,.5);
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.5);
+    line-height: 1.2;
+}
+
+.hhh {
+  box-sizing: border-box;
+  margin-top:45px;  
+  width:527px;
+  display:inline-block;
+  color: rgb(43, 94, 94);
+  float: left;
+  font-size: 57px;
+  font-family: "LadyCopra", Arial;  
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.6);
+}
+.hhh p{
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(43, 94, 94);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.28);
+  background: url(img./1.png) no-repeat center;
+}
+
+.top-left h2{
+  float: left;
+  font-size: 15px;
+  font-family: "InterstateCondensedBold";
+  color: rgb(87, 87, 87);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.9);
+  margin-right:10px;
+}
+.up, .down{
+    float: left;
+    margin-top:4px;
+}
+
+.top-left{
+    box-sizing: border-box;
+    margin-top:50px;
+    width:250px;
+    display:inline-block;
+    float: left;
+    text-align:left;
+}
+.search{
+    box-sizing: border-box;
+    margin-top:65px;
+    width:250px;
+    display:inline-block;
+    float: left;
+}
+.topp{
+    float:left;
+    width: 100%;  
+    padding-bottom:15px; 
+}
+.top-left p{
+  padding-top:15px;
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(167, 167, 167);
+  font-style: italic;
+  line-height: 1.636;
+  text-align: left;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.5);
+}
+/*panel*/
+.pp {
+    float:left;
+    height:60px;
+    display: inline-block;
+    margin:18px 25px 0 25px;
+    padding-top:15px;
+    text-align: center;
+    
+}
+.pp p {
+  font-size: 14px;
+  font-family: "Georgia";
+  color: rgb(113, 47, 21);
+  font-style: italic;
+  line-height: 1.286;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.24);
+  transform: scale(1, 0.82);
+}
+.pp a{text-decoration:none;}
+.pp h3{
+    font-size: 23px;
+    font-family: "Glasgow";
+    color: rgb(113, 47, 21);
+    text-transform: uppercase;
+    line-height: 0.783;
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.28);
+    transform: scale(1, 0.82);    
+}
+
+.gastro{
+    margin-left: 120px;
+}
+.food{
+    width:183px;
+    height:60px;
+    background:url(img/food.png);    
+    margin:18px 0 0 0;
+    box-sizing: border-box;
+    padding-top:15px;    
+}
+.food h3{color: rgb(255, 255, 255);text-shadow: 0.5px 0.866px 1px rgba(0, 0, 1, 0.31);
+font-weight:normal;}
+.food p{color: rgb(255, 255, 255);text-shadow: 0.5px 0.866px 0px rgba(0, 0, 1, 0.31);}
+/*content*/
+/*contenttop*/
+.conttop{
+    height:100%;
+    width: 100%;
+    position:relative;
+    padding:25px 0 0 0;
+}
+.mid{
+    display:inline-block;
+    height:230px;
+    width: 934px;
+    background:#000;
+    overflow:hidden;    
+}
+
+.lef{
+    display:inline-block;
+    position:absolute;
+    height:30px;
+    width: 30px;
+    border-radius:50%;
+    top:110px;
+    left:-12px;
+    background:url(img/left.png) center no-repeat #ffffff;
+    background-position-x: 8px;
+}
+.righ{
+    display:inline-block;
+    position:absolute;
+    height:30px;
+    width: 30px;
+    border-radius:50%;
+    top:110px;
+    right:-12px;
+    background:url(img/right.png) center no-repeat #ffffff;
+    background-position-x: 14px;
+}
+
+    
+.midmid{
+    position:absolute;
+    left: 405px;
+    top:42px;
+    height:189px;
+    width: 189px;
+    border-radius:50%;    
+    background:url(img/22.jpg) center no-repeat rgb(155,220,210);
+    font-size: 15px;
+    font-family: "InterstateCondensedBold";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.39);
+    box-sizing: border-box;
+    padding:45px 20px 0;
+    color: rgb(39,143,127);
+}
+.midmid p {
+  margin-top: 30px;
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(123, 123, 123);
+  font-style: italic;
+  line-height: 1.364;
+  text-align: center;
+  text-transform:none;
+}
+/*content left*/
+.contdown{
+    width:934px;
+    height:100%;
+    background:#ffffff;
+    display:inline-block;
+    
+}
+.contleft{
+    width: 665px;
+    height:100%;
+    float: left;
+    background:#ffffff;
+    display:inline-block;
+    text-align:left;
+    
+}
+.contright{
+    width: 212px;
+    height:100%;
+    float: right;
+    display:inline-block;    
+}
+.contt{
+    float:left;
+    width: 100%;
+    height:100%;
+    display: block;
+    margin:20px 0;
+  font-size: 15px;
+  font-family: "InterstateCondensedBold";
+  color: rgb(57, 57, 57);
+  text-align:left;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.39);
+}
+
+.contt ul{float:left;
+margin:15px 0 0 0; padding:0;}
+
+.contt li{
+    display:inline-block;
+    float: left;
+    height:47px;
+    width: 47px;
+    margin:2px;
+    overflow: hidden;     
+}
+.contt a{
+  text-transform:none;
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(39, 143, 127);
+  font-style: italic;
+  line-height: 1.364;
+  text-decoration:none
+
+}
+.imgg{
+    height:164px;
+    width:232px;
+    margin:3px 25px 3px 0;
+    float: left;
+    overflow:hidden;
+}
+
+.bl h2{
+  font-size: 20px;
+  font-family: "Georgia";
+  color: rgb(43, 94, 94);
+  line-height: 1.2;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.39);
+  text-transform:none;    
+}
+h3 img{
+    margin:0 4px 0 6px;
+}
+h3 a{text-decoration:none;}
+
+.bl h3{
+  margin-top:6px;
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(156, 140, 106);
+  font-style: italic;
+  line-height: 1.364;
+  text-align: left;
+  text-transform:none;
+}
+.bl h4 {
+  margin-top:11px;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(156, 140, 106);
+  line-height: 1.5;
+  text-align: left;
+  text-transform:none;
+
+}
+.bl h5{
+    margin-top:11px;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(156, 140, 106);
+  font-style: italic;
+  line-height: 1.5;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.5);
+  text-align: left;
+  text-transform:none;
+}
+h5 span{
+    margin-left:15px;
+}
+h5 img{
+    margin-left: 4px;
+}
+h5 .comment{margin-right:20px;}
+span a{text-decoration:none;
+margin:0;    
+}
+.comment {
+    height:23px;
+    width:80px;
+    margin:0 4px 0 0;
+    float: left;
+    background: url(img/comm.png) center no-repeat #ffffff;
+    text-align:center;
+    box-sizing: border-box;
+    padding:6px 0 0 0;  
+    text-decoration:none; 
+    color: rgb(123, 123, 123);
+ }
+
+
+.soc{
+    box-sizing: border-box;
+    padding-top:6px; 
+}
+.botleft{
+    width: 438px;
+    float:left;
+}
+.botright{
+    width: 206px;
+    float:right;
+}
+iframe{
+    margin:17px 3px 0;
+}
+.imgright{
+    margin-top:15px;
+    height:123px;
+    width:212px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.rup p{
+    margin-top: 12px;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(156, 140, 106);
+  line-height: 1.5;
+  text-align: justify;
+  text-decoration:none;
+  text-transform:none; 
+}
+.rup h2{
+    margin-top:25px;
+  text-align: justify;
+  text-decoration:none;
+  text-transform:none; 
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(39, 143, 127);
+  font-style: italic;
+  line-height: 1.5;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.5);  
+}
+input{
+    float: left;
+    height: 20px;
+    box-sizing: border-box;
+    margin-right:15px;
+}
+form{
+    margin-top:20px;
+}
+form p{
+    box-sizing: border-box;
+    background: url(img/33.jpg) bottom no-repeat;
+    width: 152px;
+    float:left;
+}
+
+.button{
+    margin-top:30px;
+    float:left;
+    display:inline-block;  
+    font-size: 15px;
+    line-height: 1.2;
+    font-family: "InterstateCondensedBold";
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.39);
+    text-decoration: none;
+    padding-top: 2px
+    
+    transition: .5s;
+    border: 0;
+    cursor:pointer;
+    height: 33px;
+}
+.button.vote{margin-right:20px; background-color: rgb(240, 227, 200); width: 69px;border-radius: 5px; color:rgb(162,141,98);}
+.button.vote:hover{ background: rgba(140,127,100,.8);color:rgb(255, 255, 255);} 
+.button.result{margin-right:20px; background-color: rgb(255, 255, 255);width: 69px;border-radius: 5px; color:rgb(39,143,127);}
+.button.result:hover{ background: rgba(150,150,150,.4);}
+
+
+.rup .box {
+    display:inline-block;
+    float:left;
+    width: 212px;
+    height: 24px;
+    border: 1px solid #ccc;
+    margin: 0 0 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    background: url(img/mail.png) no-repeat right #f4ebd8;
+    background-position-x: 180px;
+    padding: 0px 25px 0px 10px;
+    border-radius: 12px;
+    font-style: italic;
+    font-size: 11px;
+    font-family: "Georgia";
+    color: rgba(82, 82, 82,.5);
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.5);
+    line-height: 1.2;
+}
+.rup a{margin-right:10px;}
+
+/*foot*/
+
+.footleft{
+    height:100%;
+    width: 175px;
+    text-align:center;
+    float:left;
+    margin:0 20px 0 79px;    
+}
+.footleft h2 {
+    margin-top:50px;
+  font-size: 34px;
+  font-family: "LadyCopra";
+  color: rgb(255, 255, 255);
+  line-height: 0.529;
+  text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.29);
+  transform: scale(1, 0.82);
+  font-weight:normal;  
+}
+.footleft p{
+    margin-top:20px;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.5;
+  text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.22);  
+}
+.list{
+    height:100%;
+    list-style-type: none;
+    margin:50px 0 0 20px;
+    float:left;
+    text-align:left;        
+}
+
+.list a{
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #9acac3;
+  font-style: italic;
+  text-decoration: underline;
+  line-height: 1.5;
+}
+.list img{
+    margin-right: 10px;
+}
